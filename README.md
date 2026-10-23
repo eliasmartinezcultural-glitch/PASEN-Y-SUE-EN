@@ -5,8 +5,8 @@ Proyecto cultural digital independiente inspirado en San Patricio del Chañar, N
 ## Estado de esta primera versión
 
 - Sitio estático en `index.html`, sin backend, cuenta, contraseña ni dependencias externas.
-- Catálogo curado de exactamente 8 regalitos: cuento, actividad escolar, juego familiar, lámina decorativa, separadores, tarjetas de curiosidades, ficha cultural local y recetario.
-- Fichas de recursos con vista previa, descarga HTML imprimible y opción de impresión.
+- Catálogo de 24 recursos distribuidos en 8 estantes temáticos: cuentitos; chicos y escuela; familia y memoria; decoración y tarjetas; papelería; curiosidades; cultura e historia local; recetarios y saberes familiares.
+- Cada estante tiene introducción y tres productos con descripción, vista previa, botón directo de descarga HTML imprimible y opción de impresión.
 - Diseño adaptable a móviles y escritorio, navegación por teclado y respeto por `prefers-reduced-motion`.
 - Alias informado por el responsable: `ocarina.guitarra`, titular informado Elías Martínez. Aporte voluntario y sin condiciones de acceso.
 - Identidad visual cálida con paleta pastel, escena rural ilustrada en CSS y pequeñas escenas vectoriales para las piezas imprimibles.
@@ -25,7 +25,7 @@ Proyecto cultural digital independiente inspirado en San Patricio del Chañar, N
 
 ## Arquitectura actual
 
-La primera versión se mantiene intencionalmente en un solo archivo para facilitar la edición desde GitHub y reducir dependencias. El catálogo, el estilo y la lógica están organizados por secciones internas. Las piezas descargables se generan en el navegador como archivos HTML imprimibles: no se envían datos a un servidor.
+La versión actual mantiene el catálogo en un único archivo para facilitar la edición desde GitHub y reducir dependencias. Los 24 recursos se organizan automáticamente en ocho estantes temáticos; la búsqueda y los filtros ocultan secciones vacías. El sitio es autoservicio y no depende de que Elías esté conectado. Las piezas descargables se generan en el navegador como archivos HTML imprimibles: no se envían datos a un servidor.
 
 ## Próximas etapas
 
