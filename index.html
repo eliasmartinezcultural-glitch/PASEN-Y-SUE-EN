@@ -109,14 +109,14 @@ calendario:{title:"Calendario mensual para la pared",category:"Organización · 
 decorar:{title:"La casita entre las bardas",category:"Arte y papel · lámina para colorear",icon:"🏡",color:"#f4e6c8",intro:"Una escena rural imaginaria para colorear, decorar o regalar. No representa una vivienda real.",body:"MI RINCÓN TRANQUILO\n\nColoreá la casita, el camino, las plantas y el cielo. Podés inventar un perro dormilón, una huerta pequeña o una mesa matera.\n\nEn mi patio pondría: __________________________________\nUn sonido que me gustaría escuchar: ____________________\nMi color favorito para el cielo: _________________________\n\n“Que en esta casa siempre haya un lugar para descansar”.\n\nImprimí en A4. Si vas a colorear con fibras o témperas, probá primero con un papel adecuado para ese material.",kind:"poster"},
 curiosidades:{title:"Flores y plantas de nuestra tierra",category:"Naturaleza · guía de observación",icon:"🌿",color:"#e1eadb",intro:"Una guía amable para observar plantas locales, registrar cambios y aprender a identificarlas sin dañarlas.",body:"MI CUADERNO DE PLANTAS\n\nNombre común (si lo conozco): ________________________\nLugar de observación: ________________________________\nFecha: _____________________________________________\n\n¿QUÉ VEO?\n□ Hojas   □ Flores   □ Frutos   □ Semillas   □ Espinas\nColores: ___________________________________________\nForma de las hojas: __________________________________\nTamaño aproximado: __________________________________\n\nDIBUJO O DETALLE QUE QUIERO RECORDAR\n\n\n\n\n\n\n\n\n\n\n\n\nPARA CUIDAR EL ENTORNO\n• No arranques plantas ni pruebes frutos desconocidos.\n• Observá sin acercarte a especies que puedan lastimar.\n• Si necesitás identificarla, consultá una guía confiable o a una persona especializada.\n• Anotá la fuente de cualquier identificación.\n\nEsta ficha es para registrar observaciones; no es una lista completa ni una identificación científica de especies locales.",kind:"worksheet"}
 });
-const activeProductIds=new Set(['cuento','cuento2','cuento3','mapa','laminaChañar','historia','papeleria','compras','contactos','decorar','decorar2','decorar3']);
+const activeProductIds=new Set(['cuento','familia','curiosidades','mapa','historia','escuela','papeleria','compras','contactos','decorar','separadores','stickers']);
 for(const id of Object.keys(items)){if(!activeProductIds.has(id))delete items[id]}
 const $=s=>document.querySelector(s);
 const groups=[
-{id:'lecturas',title:'Historias para leer',desc:'Tres cuentos originales para compartir con calma.',door:'📚',art:'story',ids:['cuento','cuento2','cuento3']},
-{id:'territorio',title:'Chañar y territorio',desc:'Tres recursos inspirados en nuestro paisaje y nuestra memoria local.',door:'🏞️',art:'valley',ids:['mapa','laminaChañar','historia']},
-{id:'hogar',title:'Hogar y organización',desc:'Tres hojas prácticas, claras y listas para completar.',door:'🧺',art:'paper',ids:['papeleria','compras','contactos']},
-{id:'arte',title:'Arte para imprimir',desc:'Tres piezas para colorear, decorar y regalar.',door:'🎨',art:'art',ids:['decorar','decorar2','decorar3']}
+{id:'lecturas',title:'Leer, jugar y conversar',desc:'Un cuento, un juego familiar y tarjetas de curiosidades: tres maneras distintas de compartir.',door:'📚',art:'story',ids:['cuento','familia','curiosidades']},
+{id:'territorio',title:'Chañar y territorio',desc:'Un mapa participativo, una ficha de historia local y una misión de exploración.',door:'🏞️',art:'valley',ids:['mapa','historia','escuela']},
+{id:'hogar',title:'Hogar y organización',desc:'Una agenda semanal, una lista de compras y una hoja de contactos importantes.',door:'🧺',art:'paper',ids:['papeleria','compras','contactos']},
+{id:'arte',title:'Arte para imprimir',desc:'Una lámina para intervenir, señaladores para leer y stickers para usar.',door:'🎨',art:'art',ids:['decorar','separadores','stickers']}
 ];
 const groupFor=id=>groups.find(g=>g.ids.includes(id));
 let currentGroup='cuento';
