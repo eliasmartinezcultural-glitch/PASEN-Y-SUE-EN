@@ -5,7 +5,7 @@ Proyecto cultural digital independiente inspirado en San Patricio del Chañar, N
 ## Estado de esta primera versión
 
 - Sitio estático en `index.html`, sin backend, cuenta, contraseña ni dependencias externas.
-- Catálogo inicial de 20 recursos con buscador y filtros por categoría.
+- Catálogo curado de 8 recursos con buscador y filtros por categoría.
 - Fichas de recursos con vista previa, descarga HTML imprimible y opción de impresión.
 - Diseño adaptable a móviles y escritorio, navegación por teclado y respeto por `prefers-reduced-motion`.
 - Alias informado por el responsable: `ocarina.guitarra`, titular informado Elías Martínez. Aporte voluntario y sin condiciones de acceso.
