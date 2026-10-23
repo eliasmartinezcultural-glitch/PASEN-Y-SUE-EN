@@ -1,0 +1,10 @@
+{
+  "name": "Pasen y sueñen — La mesa abierta del Chañar",
+  "short_name": "Pasen y sueñen",
+  "description": "Una mesa tranquila de recursos gratuitos para leer, imprimir, aprender y compartir.",
+  "lang": "es-AR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f2e8",
+  "theme_color": "#f5f0e5"
+}
