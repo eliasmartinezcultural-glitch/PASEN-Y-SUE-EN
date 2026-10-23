@@ -5,11 +5,14 @@ Proyecto cultural digital independiente inspirado en San Patricio del Chañar, N
 ## Estado de esta primera versión
 
 - Sitio estático en `index.html`, sin backend, cuenta, contraseña ni dependencias externas.
-- Catálogo curado de 8 recursos con buscador y filtros por categoría.
+- Catálogo curado de exactamente 8 regalitos: cuento, actividad escolar, juego familiar, lámina decorativa, separadores, tarjetas de curiosidades, ficha cultural local y recetario.
 - Fichas de recursos con vista previa, descarga HTML imprimible y opción de impresión.
 - Diseño adaptable a móviles y escritorio, navegación por teclado y respeto por `prefers-reduced-motion`.
 - Alias informado por el responsable: `ocarina.guitarra`, titular informado Elías Martínez. Aporte voluntario y sin condiciones de acceso.
 - Identidad visual cálida con paleta pastel, escena rural ilustrada en CSS y pequeñas escenas vectoriales para las piezas imprimibles.
+- `historia.html`: introducción a la historia y las curiosidades de San Patricio del Chañar, con cautela al tratar hipótesis.
+- `contactos.html`: diez contactos útiles y líneas adicionales de asistencia, con avisos para reconfirmar teléfonos directos.
+- `fuentes.html`: criterios editoriales y fuentes iniciales.
 
 ## Principios editoriales
 
@@ -30,7 +33,7 @@ La primera versión se mantiene intencionalmente en un solo archivo para facilit
 - Verificar fuentes históricas y añadir referencias específicas a cada ficha documental.
 - Ampliar las ilustraciones originales y probar la impresión en distintos navegadores.
 - Verificar que el alias y el nombre del titular coincidan en la aplicación de pago antes de transferir.
-- Añadir una página de fuentes, créditos y condiciones de uso de los materiales.
+- Mantener actualizados los contactos y ampliar las fuentes de las piezas culturales.
 - Si el catálogo crece mucho, separar estilos, catálogo y lógica en `styles.css`, `catalog.js` y `app.js` sin perder compatibilidad con GitHub Pages.
 
 ## Publicación
