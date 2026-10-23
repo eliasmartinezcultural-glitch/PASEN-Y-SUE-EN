@@ -128,7 +128,7 @@ let activeFilter='todos',activeItem=null;const modal=$('#modal'),toast=$('#toast
 function notify(msg){toast.textContent=msg;toast.classList.add('show');window.setTimeout(()=>toast.classList.remove('show'),2600)}
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function cardMarkup(item){
-const lines=item.body.split('\\n').map(x=>x?'<p>'+escapeHtml(x)+'</p>':'<div style="height:8px"></div>').join('');
+const lines=item.body.split('\n').map(x=>x?'<p>'+escapeHtml(x)+'</p>':'<div style="height:8px"></div>').join('');
 const isMap=item.kind==='map';
 const isPuzzle=item.kind==='puzzle';
 const isDeck=item.kind==='deck';
